@@ -1,13 +1,14 @@
-import './App.css'
+import './App.scss'
 import AppRoutes from "../router/ui/AppRoutes.tsx";
+import Layout from "../../widgets/Layout/ui/Layout.tsx";
 
 function App() {
 
     return (
         <div className='app'>
-            <div>Header</div>
-            <AppRoutes/>
-            <div>Footer</div>
+            <Layout>
+                <AppRoutes/>
+            </Layout>
         </div>
     )
 }
