@@ -5,11 +5,11 @@ import Layout from "../../widgets/Layout/ui/Layout.tsx";
 function App() {
 
     return (
-        <div className='app'>
+        <>
             <Layout>
                 <AppRoutes/>
             </Layout>
-        </div>
+        </>
     )
 }
 

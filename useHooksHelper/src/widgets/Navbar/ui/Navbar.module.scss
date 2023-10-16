@@ -1,0 +1,9 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 50%;
+  gap: 20px;
+  font: var(--font-xl);
+  text-transform: uppercase;
+}
