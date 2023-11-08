@@ -1,8 +1,10 @@
+import {Box} from "@mui/material";
+
 const MainPage = () => {
     return (
-        <div>
+        <Box>
             MainPage
-        </div>
+        </Box>
     );
 };
 
