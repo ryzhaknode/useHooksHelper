@@ -29,7 +29,7 @@ function App() {
 
     // delete obj.age
 
-    console.log('rebase')
+    console.log('rebased')
 
     return (
         <>
