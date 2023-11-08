@@ -1,5 +1,6 @@
 import cls from './MyLink.module.scss'
-import {Link} from "react-router-dom";
+import Link from '@mui/material/Link';
+import {Link as RouterLink} from "react-router-dom";
 import {ReactNode} from "react";
 import {classNames} from "../../lib/classNames/classNames.ts";
 
@@ -26,7 +27,7 @@ export const MyLink = (props: MyLinkProps) => {
     } = props
 
     return (
-        <Link to={to} className={classNames(cls.myLink, {[cls[theme]]: true}, [className])}>
+        <Link component={RouterLink} to={to} className={classNames(cls.myLink, {[cls[theme]]: true}, [className])}>
             {children}
         </Link>
     );
