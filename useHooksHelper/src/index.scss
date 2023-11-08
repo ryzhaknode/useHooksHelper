@@ -1,3 +1,23 @@
+@import "./styles/global";
+@import "./styles/toZero";
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #fff;
+  font: var(--font-m);
+  width: 100%;
+  height: 100%;
+}
+
+//
+
 body {
-  margin: 0;
+
 }

@@ -9,7 +9,7 @@ import MainPage from "../../pages/MainPage/MainPage.tsx";
 
 export const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/*',
         element: <App/>,
         children: [
             {
